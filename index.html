@@ -1,20 +1,26 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Information</title>
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <h1>My Information</h1>
-        <div class="info">
-            <p><strong>Name:</strong> Ayoub Mohammed</p>
-            <p><strong>Phone Number:</strong> <a href="tel:+9647800041290">+9647800041290</a></p>
-            <p><strong>Telegram:</strong> <a href="https://t.me/fullstack_pc" target="_blank">@fullstack_pc</a></p>
-            <p><strong>Facebook:</strong> <a href="https://www.facebook.com/ayoub.mohammed" target="_blank">Ayoub Mohammed</a></p>
-            <p><strong>Languages:</strong> Java, Dart, HTML, CSS, JavaScript</p>
+<body class="bg-gray-100 font-roboto">
+    <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold text-center mb-6">My Information</h1>
+        <div class="flex flex-col items-center">
+            <a href="https://ibb.co/Xxjv4x5" class="mb-6">
+                <img src="https://i.ibb.co/whBxLhQ/ayoub-photo.jpg" alt="A professional headshot of Ayoub Mohammed, smiling and wearing a suit" class="rounded-full w-48 h-48 object-cover">
+            </a>
+            <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+                <p class="mb-4"><strong>Name:</strong> Ayoub Mohammed</p>
+                <p class="mb-4"><strong>Phone Number:</strong> <a href="tel:+9647800041290" class="text-blue-500">+9647800041290</a></p>
+                <p class="mb-4"><strong>Telegram:</strong> <a href="https://t.me/fullstack_pc" target="_blank" class="text-blue-500">@fullstack_pc</a></p>
+                <p class="mb-4"><strong>Facebook:</strong> <a href="https://www.facebook.com/ayoub.mohammed" target="_blank" class="text-blue-500">Ayoub Mohammed</a></p>
+                <p><strong>Languages:</strong> Java, Dart, HTML, CSS, JavaScript</p>
+            </div>
         </div>
     </div>
 </body>
